@@ -1,0 +1,33 @@
+:root {
+    --dark: rgb(3, 37, 102);
+}
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+p {
+    color: var(--dark);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+header {
+    height: 70px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--dark);
+    background-image: url(images/Cloudy-Sky.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#output {
+    border: black;
+}
